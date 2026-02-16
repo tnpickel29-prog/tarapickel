@@ -1,75 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Your Name - Resume</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tara Pickel</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #f4f4f4;
-        }
+<style>
 
-        .container {
-            max-width: 800px;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            margin: auto;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0f1a;
+    color: white;
+    scroll-behavior: smooth;
+}
 
-        h1 {
-            color: #333;
-        }
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    text-align: center;
+}
 
-        h2 {
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-        }
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        a {
-            color: #0077cc;
-            text-decoration: none;
-        }
-    </style>
+section {
+    padding: 100px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #4da6ff;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    border-bottom: 2px solid #4da6ff;
+    padding-bottom: 5px;
+}
+
+.card {
+    background: #111827;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+</style>
 </head>
 
 <body>
-<div class="container">
 
-<h1>Your Name</h1>
-<p>Email: your@email.com</p>
-<p>LinkedIn: <a href="#">LinkedIn Link</a></p>
+<nav>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
 
+<section class="hero">
+<h1>Tara Pickel</h1>
+<p>Hospitality & Tourism Student | Future Destination Marketing Professional</p>
+<a class="button" href="resume.pdf" target="_blank">Download Resume</a>
+</section>
+
+<section id="about">
 <h2>About Me</h2>
+
 <p>
-Write a short intro about yourself, your goals, and interests.
+I am a student at Middle Tennessee State University majoring in Hospitality and Tourism Management with a concentration in Tourism and a minor in Business Administration. I am passionate about creating memorable guest experiences and building connections through events and tourism initiatives.
 </p>
 
-<h2>Education</h2>
 <p>
-School Name – Degree – Graduation Year
+My long-term career goal is to work for a Destination Marketing Organization (DMO) where I can help promote destinations, drive tourism, and tell meaningful stories that connect visitors to communities and experiences.
 </p>
 
+</section>
+
+<section id="experience">
 <h2>Experience</h2>
-<p>
-Job Title – Company – Dates
-</p>
 
+<div class="card">
+<h3>Event Coordinator – Main Event (Murfreesboro)</h3>
+<p>December 2025 – Present</p>
 <ul>
-<li>Achievement or responsibility</li>
-<li>Achievement or responsibility</li>
+<li>Coordinate birthday parties, group outings, and corporate events</li>
+<li>Collaborate with clients to design memorable event experiences</li>
+<li>Manage scheduling, logistics, and guest satisfaction</li>
 </ul>
-
-<h2>Skills</h2>
-<ul>
-<li>Skill 1</li>
-<li>Skill 2</li>
-<li>Skill 3</li>
-</ul>
-
 </div>
+
+<div class="card">
+<h3>Disney College Program Intern</h3>
+<p>January 2025 – June 2025</p>
+<ul>
+<li>Delivered high-quality guest service in a fast-paced entertainment environment</li>
+<li>Strengthened problem-solving and communication skills</li>
+<li>Applied brand storytelling and guest experience strategies</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Guest Experience Associate – Sheraton</h3>
+<p>August 2024 – January 2025</p>
+<ul>
+<li>Resolved guest concerns efficiently to improve satisfaction</li>
+<li>Streamlined check-in processes and reduced wait times</li>
+<li>Recognized for exceptional guest service</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Events Team Member – Zoo Knoxville</h3>
+<p>March 2023 – July 2023</p>
+<ul>
+<li>Supported event execution and logistics</li>
+<li>Maintained safe and engaging environments for guests</li>
+</ul>
+</div>
+
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<ul>
+<li>Event Coordination</li>
+<li>Customer Experience Strategy</li>
+<li>Leadership & Team Collaboration</li>
+<li>Communication & Relationship Building</li>
+<li>Creative Problem Solving</li>
+<li>Strategic Thinking</li>
+</ul>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+
+<p>Email: tnpickel29@gmail.com</p>
+<p>Phone: 678-849-0697</p>
+
+<p>LinkedIn: (Add your link here)</p>
+
+</section>
+
 </body>
 </html>
